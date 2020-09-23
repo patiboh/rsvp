@@ -4,7 +4,7 @@
 
 <style>
   .greeting {
-    color: fuchsia;
+    color: var(--brand-color);
   }
 </style>
 
