@@ -1,21 +1,24 @@
 <template>
-  <HelloWorldFn name="World"/>
+  <HelloWorldFn name="World" />
 </template>
 
 <script>
-import HelloWorldFn from './components/HelloWorldFn.vue'
+import HelloWorldFn from "./components/HelloWorldFn.vue";
 // import HelloWorldTpl from './components/HelloWorldTpl.vue'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorldFn,
     // HelloWorldTpl
-  }
-}
+  },
+};
 </script>
 
 <style>
+:root {
+  --brand-color: #42b983;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
